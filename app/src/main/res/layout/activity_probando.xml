@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Probando">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:visibility="visible" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opcion 2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantalla Notificacion" />
+
+    <Button
+        android:id="@+id/Intent_implicito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent implicito" />
+
+    <Button
+        android:id="@+id/button_DatoParcelable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato Parcelable" />
+
+    <Button
+        android:id="@+id/hilos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hilos" />
+
+</LinearLayout>
